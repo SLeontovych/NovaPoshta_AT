@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6297e3-ed78-47ad-97a1-71b9f34b9742" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/DeliveryPageNP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainPageNP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/home/NovaPoshta/MainClass.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,14 +29,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClass.java">
+      <file leaf-file-name="MainClassNP.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+            <state relative-caret-position="121">
+              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainPageNP.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainPageNP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="22" column="46" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeliveryPageNP.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/DeliveryPageNP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -54,7 +78,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/DeliveryPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainPageNP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java" />
       </list>
     </option>
   </component>
@@ -127,8 +156,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ua.home.NovaPoshta.MainClass" />
+    <configuration name="MainClassNP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.home.NovaPoshta.MainClassNP" />
       <module name="NovaPoshta_AT" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -181,7 +210,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainClass" />
+        <item itemvalue="Application.MainClassNP" />
       </list>
     </recent_temporary>
   </component>
@@ -216,13 +245,13 @@
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -241,10 +270,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClass.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/DeliveryPageNP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="187">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainPageNP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -5,13 +5,17 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class MainClass {
+public class MainClassNP {
+    static WebDriver wd;
+
     public static void main(String[] args) {
-        WebDriver wd;
+
         wd = new FirefoxDriver();
-        wd.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wd.manage().window().maximize();
         wd.get("https://novaposhta.ua");
+        MainPageNP mainPageNP = new MainPageNP(wd);
+        mainPageNP.clickDeliveryLink();
     }
 
 }
