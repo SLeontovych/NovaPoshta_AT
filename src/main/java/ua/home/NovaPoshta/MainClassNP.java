@@ -17,11 +17,16 @@ public class MainClassNP {
         MainPageNP mainPageNP = new MainPageNP(wd);
 
 
-        mainPageNP.clickOnlineOrderLink();
+        mainPageNP.clickEstimatedateLink();
 
-        OnlineOrderPage onlineOrderPage = new OnlineOrderPage(wd);
+        EstimatedatePage estimatedatePage = new EstimatedatePage(wd);
 
-        onlineOrderPage.returnMainPage();
-
+//        estimatedatePage.inputDepartureDate("01.01.2018");
+        estimatedatePage.inputServiceType("Адреса-Адреса");
+        estimatedatePage.inputSenderCity("Авдіївка");
+        estimatedatePage.inputRecipientCity("Аджамка");
+//        estimatedatePage.clearAllFielForm();
+        estimatedatePage.clickDateButton();
+        System.out.println(estimatedatePage.getLableDateResponse());
     }
 }
