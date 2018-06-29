@@ -1,5 +1,6 @@
 package ua.home.NovaPoshta;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class TimeTablePage {
@@ -11,5 +12,17 @@ public class TimeTablePage {
     }
 
     // Описание Елементов на странице
+    private By headerTimeTablePage = By.xpath(".//*[@id='wrapper']/h1");
+    private By mainPagelink = By.xpath(".//a[@title='Головна']");
+
+
     // Описание методов MainPageNP
+    public String getHeaderTimeTablePage() {
+        return wd.findElement(headerTimeTablePage).getText();
+    }
+
+    public MainPageNP returnMainPage() {
+        wd.findElement(mainPagelink).click();
+        return new MainPageNP(wd);
+    }
 }
