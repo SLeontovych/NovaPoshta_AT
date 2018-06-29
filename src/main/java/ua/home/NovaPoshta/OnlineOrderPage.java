@@ -16,8 +16,8 @@ public class OnlineOrderPage {
     private By mainPagelink = By.xpath(".//a[@title='Головна']");
 
 
-    // Описание методов MainPageNP
-    public String getHeaderTimeTablePage() {
+    // Описание методов
+    public String getHeaderOnlineOrderPage() {
         return wd.findElement(headerOnlineOrderPage).getText();
     }
 

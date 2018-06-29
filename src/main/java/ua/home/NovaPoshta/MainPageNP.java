@@ -16,7 +16,7 @@ public class MainPageNP {
     private By estimatedateLink = By.xpath(".//span[text()='Терміни доставки']");
     private By officeLink = By.xpath(".//span[text()='Найближче відділення']");
     private By timetableLink = By.xpath(".//span[text()='Графік роботи відділень']");
-    private By onlineorderLink = By.xpath(".//span[text()=\"Виклик кур'єра\"]");
+    private By onlineorderLink = By.xpath(".//a[@href='/onlineorder']");
 
     // Описание методов MainPageNP
 
