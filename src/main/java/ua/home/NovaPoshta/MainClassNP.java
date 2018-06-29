@@ -11,11 +11,16 @@ public class MainClassNP {
     public static void main(String[] args) {
 
         wd = new FirefoxDriver();
-        wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        wd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         wd.manage().window().maximize();
         wd.get("https://novaposhta.ua");
         MainPageNP mainPageNP = new MainPageNP(wd);
-        mainPageNP.clickDeliveryLink();
+
+//        mainPageNP.clickDeliveryLink();
+//        mainPageNP.clickEstimatedateLink();
+//        mainPageNP.clickOfficeLink();
+//        mainPageNP.clickTimeTableLink();
+          mainPageNP.clickOnlineOrderLink();
     }
 
 }
