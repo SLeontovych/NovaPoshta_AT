@@ -16,11 +16,16 @@ public class MainClassNP {
         wd.get("https://novaposhta.ua");
         MainPageNP mainPageNP = new MainPageNP(wd);
 
-//        mainPageNP.clickDeliveryLink();
+
+       mainPageNP.clickDeliveryLink();
+
+       DeliveryPageNP deliveryPageNP = new DeliveryPageNP(wd);
+        MainPageNP mainPageNP1 = deliveryPageNP.returnMainPage();
+
 //        mainPageNP.clickEstimatedateLink();
 //        mainPageNP.clickOfficeLink();
 //        mainPageNP.clickTimeTableLink();
-          mainPageNP.clickOnlineOrderLink();
+//        mainPageNP.clickOnlineOrderLink();
     }
 
 }
