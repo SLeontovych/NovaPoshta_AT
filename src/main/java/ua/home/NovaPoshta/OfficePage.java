@@ -12,7 +12,7 @@ public class OfficePage {
     }
 
     // Описание Елементов на странице
-    private By headerOfficePage = By.xpath(".//*[@id='wrapper']/h1");
+    private By headerOfficePage = By.xpath(".//*[@id='header']/div[5]/h1");
     private By mainPagelink = By.xpath(".//a[@id='logo']");
 
 
