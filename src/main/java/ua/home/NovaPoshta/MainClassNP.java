@@ -17,15 +17,11 @@ public class MainClassNP {
         MainPageNP mainPageNP = new MainPageNP(wd);
 
 
-       mainPageNP.clickDeliveryLink();
+        mainPageNP.clickOnlineOrderLink();
 
-       DeliveryPageNP deliveryPageNP = new DeliveryPageNP(wd);
-        MainPageNP mainPageNP1 = deliveryPageNP.returnMainPage();
+        OnlineOrderPage onlineOrderPage = new OnlineOrderPage(wd);
 
-//        mainPageNP.clickEstimatedateLink();
-//        mainPageNP.clickOfficeLink();
-//        mainPageNP.clickTimeTableLink();
-//        mainPageNP.clickOnlineOrderLink();
+        onlineOrderPage.returnMainPage();
+
     }
-
 }
