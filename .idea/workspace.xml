@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6297e3-ed78-47ad-97a1-71b9f34b9742" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/EstimatedatePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/EstimatedatePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Results - EstimatedatePageTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/EstimatedatePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/EstimatedatePageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/home/NovaPoshta/EstimatedatePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/home/NovaPoshta/EstimatedatePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/home/NovaPoshtaTest/EstimatedatePageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ua/home/NovaPoshtaTest/EstimatedatePageTests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -13,6 +17,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" openResultsInEditor="true" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
@@ -36,20 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EstimatedatePageTests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EstimatedatePageTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/EstimatedatePageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+            <state relative-caret-position="230">
+              <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EstimatedatePage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EstimatedatePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/EstimatedatePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="77" column="51" lean-forward="true" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
+            <state relative-caret-position="117">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3958#3959#0" expanded="true" />
@@ -67,6 +72,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dateResponse</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,8 +96,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/MainPageNPTests.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/EstimatedatePageTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/EstimatedatePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/EstimatedatePageTests.java" />
       </list>
     </option>
   </component>
@@ -319,27 +329,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EstimatedatePageTests - 2018.06.30 at 08h 20m 19s.xml">
-      <configuration name="EstimatedatePageTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EstimatedatePageTests - 2018.06.30 at 08h 37m 22s.xml">
-      <configuration name="EstimatedatePageTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EstimatedatePageTests - 2018.06.30 at 08h 45m 42s.xml">
-      <configuration name="EstimatedatePageTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EstimatedatePageTests - 2018.06.30 at 08h 51m 06s.xml">
-      <configuration name="EstimatedatePageTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EstimatedatePageTests - 2018.06.30 at 08h 53m 40s.xml">
-      <configuration name="EstimatedatePageTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EstimatedatePageTests - 2018.06.30 at 09h 08m 12s.xml">
-      <configuration name="EstimatedatePageTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EstimatedatePageTests - 2018.06.30 at 09h 09m 15s.xml">
-      <configuration name="EstimatedatePageTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EstimatedatePageTests - 2018.06.30 at 09h 10m 38s.xml">
       <configuration name="EstimatedatePageTests" configurationId="JUnit" />
     </history-entry>
@@ -347,6 +336,27 @@
       <configuration name="EstimatedatePageTests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EstimatedatePageTests - 2018.06.30 at 09h 13m 32s.xml">
+      <configuration name="EstimatedatePageTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EstimatedatePageTests - 2018.06.30 at 09h 27m 01s.xml">
+      <configuration name="EstimatedatePageTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EstimatedatePageTests - 2018.06.30 at 09h 27m 45s.xml">
+      <configuration name="EstimatedatePageTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EstimatedatePageTests - 2018.06.30 at 09h 34m 36s.xml">
+      <configuration name="EstimatedatePageTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EstimatedatePageTests - 2018.06.30 at 09h 37m 38s.xml">
+      <configuration name="EstimatedatePageTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EstimatedatePageTests - 2018.06.30 at 09h 38m 16s.xml">
+      <configuration name="EstimatedatePageTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EstimatedatePageTests - 2018.06.30 at 09h 42m 40s.xml">
+      <configuration name="EstimatedatePageTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EstimatedatePageTests - 2018.06.30 at 09h 47m 00s.xml">
       <configuration name="EstimatedatePageTests" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -362,12 +372,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21122113" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31683168" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21028744" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21028744" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -731,22 +741,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/EstimatedatePageTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/EstimatedatePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="77" column="51" lean-forward="true" selection-start-line="77" selection-start-column="51" selection-end-line="77" selection-end-column="51" />
+        <state relative-caret-position="117">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3958#3959#0" expanded="true" />
             <element signature="e#4027#4028#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/EstimatedatePageTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
         </state>
       </provider>
     </entry>
