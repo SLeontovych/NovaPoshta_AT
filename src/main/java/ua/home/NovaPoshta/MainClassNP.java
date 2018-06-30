@@ -1,8 +1,11 @@
 package ua.home.NovaPoshta;
 
+import com.google.common.collect.Lists;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class MainClassNP {
@@ -22,11 +25,15 @@ public class MainClassNP {
         EstimatedatePage estimatedatePage = new EstimatedatePage(wd);
 
 //        estimatedatePage.inputDepartureDate("01.01.2018");
-        estimatedatePage.inputServiceType("Адреса-Адреса");
-        estimatedatePage.inputSenderCity("Авдіївка");
-        estimatedatePage.inputRecipientCity("Аджамка");
-//        estimatedatePage.clearAllFielForm();
+//        estimatedatePage.inputServiceType("Адреса-Адреса");
+//        estimatedatePage.inputSenderCity("Авдіївка");
+//        estimatedatePage.inputRecipientCity("Аджамка")
         estimatedatePage.clickDateButton();
-        System.out.println(estimatedatePage.getLableDateResponse());
+        List validLabel = estimatedatePage.getValidLabel();
+        List notValidLabel = estimatedatePage.getNotValidLabel();
+//        estimatedatePage.clearAllFielForm();
+
+        System.out.println("Valid Label: " + validLabel.size());
+        System.out.println("Not Valid Label: " + notValidLabel.size());
     }
 }

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6297e3-ed78-47ad-97a1-71b9f34b9742" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/EstimatedatePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/EstimatedatePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/home/NovaPoshta/EstimatedatePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/home/NovaPoshta/MainClassNP.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,7 +40,7 @@
       <file leaf-file-name="EstimatedatePageTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/EstimatedatePageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
+            <state relative-caret-position="61">
               <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -54,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainClassNP.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainClassNP.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="24" column="59" lean-forward="true" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+            <state relative-caret-position="299">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,17 +63,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EstimatedatePage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EstimatedatePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/EstimatedatePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+            <state relative-caret-position="540">
+              <caret line="105" column="50" lean-forward="true" selection-start-line="105" selection-start-column="50" selection-end-line="105" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#284#285#0" expanded="true" />
                 <element signature="e#312#313#0" expanded="true" />
                 <element signature="e#3896#3897#0" expanded="true" />
                 <element signature="e#3958#3959#0" expanded="true" />
+                <element signature="e#4027#4028#0" expanded="true" />
+                <element signature="e#4086#4087#0" expanded="true" />
+                <element signature="e#4195#4196#0" expanded="true" />
+                <element signature="e#4253#4254#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,8 +110,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/MainPageNPTests.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/EstimatedatePageTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/EstimatedatePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java" />
       </list>
     </option>
   </component>
@@ -390,7 +391,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20726173" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20726173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -424,34 +425,6 @@
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info id="Favorites" order="5" side_tool="true" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41914192" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20726173" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.7640264" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -646,18 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/DeliveryPageNP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Ignore.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -685,16 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainPageNP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="18" column="72" lean-forward="true" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/TimeTablePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -714,6 +665,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainPageNP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/DeliveryPageNP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/MainPageNPTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -726,7 +697,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/EstimatedatePageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
+        <state relative-caret-position="61">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -736,26 +707,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="24" column="59" lean-forward="true" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/EstimatedatePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+        <state relative-caret-position="540">
+          <caret line="105" column="50" lean-forward="true" selection-start-line="105" selection-start-column="50" selection-end-line="105" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#284#285#0" expanded="true" />
             <element signature="e#312#313#0" expanded="true" />
             <element signature="e#3896#3897#0" expanded="true" />
             <element signature="e#3958#3959#0" expanded="true" />
+            <element signature="e#4027#4028#0" expanded="true" />
+            <element signature="e#4086#4087#0" expanded="true" />
+            <element signature="e#4195#4196#0" expanded="true" />
+            <element signature="e#4253#4254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

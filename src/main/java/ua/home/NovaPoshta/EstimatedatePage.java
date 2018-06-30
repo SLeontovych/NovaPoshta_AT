@@ -2,8 +2,10 @@ package ua.home.NovaPoshta;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import java.util.Date;
+import java.util.List;
 
 public class EstimatedatePage {
     private WebDriver wd;
@@ -94,6 +96,14 @@ public class EstimatedatePage {
 
         public String getLableDateResponse() {
             return wd.findElement(dateResponse).getText();
+        }
+
+        public List<WebElement> getValidLabel() {
+            return wd.findElements(validLable);
+        }
+
+        public List<WebElement> getNotValidLabel() {
+            return wd.findElements(notValidLable);
         }
 
 }
