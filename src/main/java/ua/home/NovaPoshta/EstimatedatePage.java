@@ -50,10 +50,7 @@ public class EstimatedatePage {
 
             return this;
         }
-        public EstimatedatePage clearServiceTypeField() {
-            wd.findElement(serviceTypeField).clear();
-             return this;
-        }
+
 
         public EstimatedatePage inputServiceType(final String nsmeServiseType) {
             wd.findElement(serviceTypeField).click();
@@ -61,10 +58,7 @@ public class EstimatedatePage {
             return this;
         }
 
-        public EstimatedatePage clearSenderVity() {
-            wd.findElement(sendercityField).clear();
-            return this;
-        }
+
 
         public EstimatedatePage inputSenderCity(final String senderCity) {
             wd.findElement(sendercityField).click();
@@ -73,14 +67,25 @@ public class EstimatedatePage {
             return this;
         }
 
-        public EstimatedatePage clearRecipientCity() {
-            wd.findElement(recipientCityField).clear();
-            return this;
-        }
 
         public EstimatedatePage inputRecipientCity(String recipientcity) {
             wd.findElement(recipientCityField).click();
             wd.findElement(By.xpath(".//*[@id='top_block']/div[1]/div/form/div[1]/div[4]/div[1]/div/div/div[1]/ul/li/span[text()='" + recipientcity + "']")).click();
+            return this;
+        }
+
+    public EstimatedatePage clearServiceTypeField() {
+        wd.findElement(serviceTypeField).clear();
+        return this;
+    }
+
+        public EstimatedatePage clearSenderVity() {
+            wd.findElement(sendercityField).clear();
+            return this;
+        }
+
+        public EstimatedatePage clearRecipientCity() {
+            wd.findElement(recipientCityField).clear();
             return this;
         }
 

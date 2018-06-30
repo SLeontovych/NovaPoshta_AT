@@ -26,14 +26,14 @@ public class MainClassNP {
 
 //        estimatedatePage.inputDepartureDate("01.01.2018");
 //        estimatedatePage.inputServiceType("Адреса-Адреса");
-//        estimatedatePage.inputSenderCity("Авдіївка");
-//        estimatedatePage.inputRecipientCity("Аджамка")
-        estimatedatePage.clickDateButton();
-        List validLabel = estimatedatePage.getValidLabel();
-        List notValidLabel = estimatedatePage.getNotValidLabel();
+//          estimatedatePage.inputSenderCity("Авдіївка");
+        estimatedatePage.inputRecipientCity("Аджамка");
+//        estimatedatePage.clickDateButton();
+//        List validLabel = estimatedatePage.getValidLabel();
+//        List notValidLabel = estimatedatePage.getNotValidLabel();
 //        estimatedatePage.clearAllFielForm();
 
-        System.out.println("Valid Label: " + validLabel.size());
-        System.out.println("Not Valid Label: " + notValidLabel.size());
+//        System.out.println("Valid Label: " + validLabel.size());
+//        System.out.println("Not Valid Label: " + notValidLabel.size());
     }
 }
