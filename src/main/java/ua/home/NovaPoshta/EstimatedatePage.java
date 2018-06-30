@@ -74,6 +74,14 @@ public class EstimatedatePage {
             return this;
         }
 
+        public EstimatedatePage inputAllFieldForm(String nameServiceType,String senderCity,String recipientCity) {
+            this.inputServiceType(nameServiceType);
+            this.inputSenderCity(senderCity);
+            this.inputRecipientCity(recipientCity);
+            return new EstimatedatePage(wd);
+        }
+
+
     public EstimatedatePage clearServiceTypeField() {
         wd.findElement(serviceTypeField).clear();
         return this;
