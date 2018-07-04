@@ -1,8 +1,10 @@
 package ua.home.NovaPoshtaTest;
 
-import org.junit.*;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+import org.testng.annotations.*;
 import ua.home.NovaPoshta.*;
 
 import java.util.concurrent.TimeUnit;
@@ -11,11 +13,19 @@ public class MainPageNPTests {
     private WebDriver wd;
     private MainPageNP mainPageNP;
 
-    @Before
+    @BeforeClass
     public void setUp() {
         wd = new FirefoxDriver();
         wd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         wd.manage().window().maximize();
+        wd.get("https://novaposhta.ua");
+        mainPageNP = new MainPageNP(wd);
+
+    }
+
+
+    @AfterMethod
+    public void gotoMainPage() {
         wd.get("https://novaposhta.ua");
         mainPageNP = new MainPageNP(wd);
     }
@@ -60,7 +70,8 @@ public class MainPageNPTests {
         Assert.assertEquals("Виклик кур'єра",heading);
     }
 
-    @After
+
+    @AfterClass
     public void tearDown() {
         wd.quit();
     }

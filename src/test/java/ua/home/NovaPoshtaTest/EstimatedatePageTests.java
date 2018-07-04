@@ -1,8 +1,10 @@
 package ua.home.NovaPoshtaTest;
 
-import org.junit.*;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+import org.testng.annotations.*;
 import ua.home.NovaPoshta.EstimatedatePage;
 import ua.home.NovaPoshta.MainPageNP;
 
@@ -11,7 +13,8 @@ import java.util.concurrent.TimeUnit;
 public class EstimatedatePageTests {
     private WebDriver wd;
     private MainPageNP mainPageNP;
-    @Before
+
+    @BeforeClass
     public void setUp() {
         wd = new FirefoxDriver();
         wd.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
@@ -22,7 +25,7 @@ public class EstimatedatePageTests {
 
     }
 
-    @Test
+       @Test
     public void assertHeading() {
         EstimatedatePage estimatedatePage = new EstimatedatePage(wd);
         String header = estimatedatePage.getHeaderEstimatePage();
@@ -84,7 +87,7 @@ public class EstimatedatePageTests {
     }
 
 
-    @After
+    @AfterClass
     public void tearDown() {
         wd.quit();
     }
