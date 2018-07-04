@@ -83,7 +83,7 @@ public class EstimatedatePageTests {
         Assert.assertEquals(3,estimatedatePage.getNotValidLabel().size()) ;
     }
 
-    
+
     @After
     public void tearDown() {
         wd.quit();
