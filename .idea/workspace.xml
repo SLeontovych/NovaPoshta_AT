@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6297e3-ed78-47ad-97a1-71b9f34b9742" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/EstimatedatePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/EstimatedatePageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/MainPageNPTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/MainPageNPTests.java" afterDir="false" />
     </list>
@@ -22,41 +20,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainClassNP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="42" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="22" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainPageNP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainPageNP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainPageNPTests.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/MainPageNPTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="137">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -64,21 +29,17 @@
       <file leaf-file-name="EstimatedatePageTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/EstimatedatePageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="44" />
-              <folding>
-                <element signature="e#3537#3538#0" expanded="true" />
-                <element signature="e#3562#3563#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EstimatedatePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/EstimatedatePage.java">
+      <file leaf-file-name="MainPageNPTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/MainPageNPTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="105" column="51" lean-forward="true" selection-start-line="105" selection-start-column="51" selection-end-line="105" selection-end-column="51" />
+            <state relative-caret-position="136">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -115,16 +76,16 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/EstimatedatePage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/EstimatedatePageTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/MainPageNPTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/EstimatedatePageTests.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1358" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -217,58 +178,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.EstimatedatePageTests">
-    <configuration name="MainClassNP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ua.home.NovaPoshta.MainClassNP" />
-      <module name="NovaPoshta_AT" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.home.NovaPoshta.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="TestNG.EstimatedatePageTests and 1 more">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="EstimatedatePageTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in NovaPoshta_AT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NovaPoshta_AT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.home.NovaPoshtaTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ua.home.NovaPoshtaTest" />
-      <option name="MAIN_CLASS_NAME" value="ua.home.NovaPoshtaTest.EstimatedatePageTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MainPageNPTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="NovaPoshta_AT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.home.NovaPoshtaTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ua.home.NovaPoshtaTest" />
-      <option name="MAIN_CLASS_NAME" value="ua.home.NovaPoshtaTest.MainPageNPTests" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -293,6 +214,56 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="ua.home.NovaPoshtaTest in NovaPoshta_AT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NovaPoshta_AT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.home.NovaPoshtaTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ua.home.NovaPoshtaTest" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="EstimatedatePageTests and 1 more" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NovaPoshta_AT" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="PATTERN" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+      <patterns>
+        <pattern testClass="ua.home.NovaPoshtaTest.EstimatedatePageTests" />
+        <pattern testClass="ua.home.NovaPoshtaTest.MainPageNPTests" />
+      </patterns>
     </configuration>
     <configuration name="EstimatedatePageTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NovaPoshta_AT" />
@@ -375,19 +346,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MainClassNP" />
-      <item itemvalue="JUnit.MainPageNPTests" />
-      <item itemvalue="JUnit.EstimatedatePageTests" />
       <item itemvalue="TestNG.EstimatedatePageTests" />
       <item itemvalue="TestNG.MainPageNPTests" />
+      <item itemvalue="JUnit.All in NovaPoshta_AT" />
+      <item itemvalue="JUnit.ua.home.NovaPoshtaTest in NovaPoshta_AT" />
+      <item itemvalue="TestNG.EstimatedatePageTests and 1 more" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.EstimatedatePageTests and 1 more" />
+        <item itemvalue="JUnit.ua.home.NovaPoshtaTest in NovaPoshta_AT" />
+        <item itemvalue="JUnit.All in NovaPoshta_AT" />
         <item itemvalue="TestNG.EstimatedatePageTests" />
         <item itemvalue="TestNG.MainPageNPTests" />
-        <item itemvalue="Application.MainClassNP" />
-        <item itemvalue="JUnit.EstimatedatePageTests" />
-        <item itemvalue="JUnit.MainPageNPTests" />
       </list>
     </recent_temporary>
   </component>
@@ -405,80 +376,104 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EstimatedatePageTests - 2018.07.05 at 22h 11m 55s.xml">
+    <history-entry file="All_in_NovaPoshta_AT - 2018.07.05 at 22h 49m 09s.xml">
+      <configuration name="All in NovaPoshta_AT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ua_home_NovaPoshtaTest_in_NovaPoshta_AT - 2018.07.05 at 22h 49m 25s.xml">
+      <configuration name="ua.home.NovaPoshtaTest in NovaPoshta_AT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ua_home_NovaPoshtaTest_in_NovaPoshta_AT - 2018.07.05 at 22h 49m 31s.xml">
+      <configuration name="ua.home.NovaPoshtaTest in NovaPoshta_AT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EstimatedatePageTests - 2018.07.05 at 22h 51m 56s.xml">
       <configuration name="EstimatedatePageTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EstimatedatePageTests - 2018.07.05 at 22h 13m 17s.xml">
-      <configuration name="EstimatedatePageTests" configurationId="TestNG" />
+    <history-entry file="All_in_NovaPoshta_AT - 2018.07.05 at 22h 52m 26s.xml">
+      <configuration name="All in NovaPoshta_AT" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EstimatedatePageTests - 2018.07.05 at 22h 22m 43s.xml">
-      <configuration name="EstimatedatePageTests" configurationId="TestNG" />
+    <history-entry file="ua_home_NovaPoshtaTest_in_NovaPoshta_AT - 2018.07.05 at 22h 52m 43s.xml">
+      <configuration name="ua.home.NovaPoshtaTest in NovaPoshta_AT" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EstimatedatePageTests - 2018.07.05 at 22h 27m 56s.xml">
-      <configuration name="EstimatedatePageTests" configurationId="TestNG" />
+    <history-entry file="EstimatedatePageTests_and_1_more - 2018.07.05 at 22h 53m 59s.xml">
+      <configuration name="EstimatedatePageTests and 1 more" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EstimatedatePageTests - 2018.07.05 at 22h 29m 16s.xml">
-      <configuration name="EstimatedatePageTests" configurationId="TestNG" />
+    <history-entry file="EstimatedatePageTests_and_1_more - 2018.07.05 at 22h 57m 01s.xml">
+      <configuration name="EstimatedatePageTests and 1 more" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EstimatedatePageTests - 2018.07.05 at 22h 29m 39s.xml">
-      <configuration name="EstimatedatePageTests" configurationId="TestNG" />
+    <history-entry file="EstimatedatePageTests_and_1_more - 2018.07.05 at 23h 01m 52s.xml">
+      <configuration name="EstimatedatePageTests and 1 more" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EstimatedatePageTests - 2018.07.05 at 22h 35m 45s.xml">
-      <configuration name="EstimatedatePageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="EstimatedatePageTests - 2018.07.05 at 22h 37m 24s.xml">
-      <configuration name="EstimatedatePageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="EstimatedatePageTests - 2018.07.05 at 22h 39m 28s.xml">
-      <configuration name="EstimatedatePageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="EstimatedatePageTests - 2018.07.05 at 22h 40m 42s.xml">
-      <configuration name="EstimatedatePageTests" configurationId="TestNG" />
+    <history-entry file="EstimatedatePageTests_and_1_more - 2018.07.05 at 23h 08m 48s.xml">
+      <configuration name="EstimatedatePageTests and 1 more" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.29582366" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.29537955" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25290024" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48679867" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23139158" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21633889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Designer" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25290024" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.29582366" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23139158" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -534,9 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,9 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -599,9 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="15" column="40" selection-start-line="12" selection-start-column="8" selection-end-line="15" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -623,9 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="14" column="75" lean-forward="true" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -671,9 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -712,9 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="14" column="75" lean-forward="true" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -732,9 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/ua/home/NovaPoshtaTest/EstimatedatePageTests.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/EstimatedatePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -744,8 +718,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        <state relative-caret-position="137">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -753,9 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="22" column="42" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="22" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -771,19 +742,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/EstimatedatePageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="44" />
-          <folding>
-            <element signature="e#3537#3538#0" expanded="true" />
-            <element signature="e#3562#3563#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/MainPageNPTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="136">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
         </state>
       </provider>
     </entry>

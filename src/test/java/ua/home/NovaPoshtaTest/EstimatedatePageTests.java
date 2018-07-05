@@ -18,11 +18,11 @@ public class EstimatedatePageTests {
 
     @BeforeClass
     public void setUp() {
-        String broeser = BrowserType.CHROME;
+        String browser = BrowserType.FIREFOX;
 
-        if (broeser == org.openqa.selenium.remote.BrowserType.FIREFOX) {
+        if (browser.equals(BrowserType.FIREFOX)) {
             wd = new FirefoxDriver();
-        } else if ( broeser == BrowserType.CHROME) {
+        } else if (browser.equals(BrowserType.CHROME)) {
             System.setProperty("webdriver.chrome.driver", "W:\\TESTER\\WebDriverSel\\Demo_sel\\NovaPoshta_AT\\drivers\\chromedriver.exe");
             wd = new ChromeDriver();
         }

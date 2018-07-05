@@ -17,10 +17,10 @@ public class MainPageNPTests {
 
     @BeforeClass
     public void setUp() {
-        String broeser = BrowserType.CHROME;
-        if (broeser == BrowserType.FIREFOX) {
+        String broeser = BrowserType.FIREFOX;
+        if (broeser.equals(BrowserType.FIREFOX)) {
             wd = new FirefoxDriver();
-        } else if ( broeser == BrowserType.CHROME) {
+        } else if (broeser.equals(BrowserType.CHROME)) {
             System.setProperty("webdriver.chrome.driver", "W:\\TESTER\\WebDriverSel\\Demo_sel\\NovaPoshta_AT\\drivers\\chromedriver.exe");
             wd = new ChromeDriver();
         }
