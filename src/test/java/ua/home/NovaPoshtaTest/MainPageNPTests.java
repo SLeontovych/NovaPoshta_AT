@@ -2,7 +2,9 @@ package ua.home.NovaPoshtaTest;
 
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.BrowserType;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import ua.home.NovaPoshta.*;
@@ -15,7 +17,13 @@ public class MainPageNPTests {
 
     @BeforeClass
     public void setUp() {
-        wd = new FirefoxDriver();
+        String broeser = BrowserType.CHROME;
+        if (broeser == BrowserType.FIREFOX) {
+            wd = new FirefoxDriver();
+        } else if ( broeser == BrowserType.CHROME) {
+            System.setProperty("webdriver.chrome.driver", "W:\\TESTER\\WebDriverSel\\Demo_sel\\NovaPoshta_AT\\drivers\\chromedriver.exe");
+            wd = new ChromeDriver();
+        }
         wd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         wd.manage().window().maximize();
         wd.get("https://novaposhta.ua");

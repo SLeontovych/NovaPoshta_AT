@@ -2,7 +2,9 @@ package ua.home.NovaPoshtaTest;
 
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.BrowserType;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import ua.home.NovaPoshta.EstimatedatePage;
@@ -16,16 +18,28 @@ public class EstimatedatePageTests {
 
     @BeforeClass
     public void setUp() {
-        wd = new FirefoxDriver();
-        wd.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        String broeser = BrowserType.CHROME;
+
+        if (broeser == org.openqa.selenium.remote.BrowserType.FIREFOX) {
+            wd = new FirefoxDriver();
+        } else if ( broeser == BrowserType.CHROME) {
+            System.setProperty("webdriver.chrome.driver", "W:\\TESTER\\WebDriverSel\\Demo_sel\\NovaPoshta_AT\\drivers\\chromedriver.exe");
+            wd = new ChromeDriver();
+        }
+        wd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         wd.manage().window().maximize();
         wd.get("https://novaposhta.ua");
-        mainPageNP = new MainPageNP(wd);
-        mainPageNP.clickEstimatedateLink();
+
 
     }
 
-       @Test
+    @BeforeMethod
+    public void createObjectnMainPage() {
+        mainPageNP = new MainPageNP(wd);
+        mainPageNP.clickEstimatedateLink();
+    }
+
+    @Test
     public void assertHeading() {
         EstimatedatePage estimatedatePage = new EstimatedatePage(wd);
         String header = estimatedatePage.getHeaderEstimatePage();
@@ -86,6 +100,11 @@ public class EstimatedatePageTests {
         Assert.assertEquals(3,estimatedatePage.getNotValidLabel().size()) ;
     }
 
+    @AfterMethod
+    public MainPageNP gotoMainPage() {
+        MainPageNP mainPageNP = new EstimatedatePage(wd).returnMainPage();
+        return new MainPageNP(wd);
+    }
 
     @AfterClass
     public void tearDown() {

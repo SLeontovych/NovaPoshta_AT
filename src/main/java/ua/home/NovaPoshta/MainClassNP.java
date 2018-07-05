@@ -10,7 +10,7 @@ public class MainClassNP {
     static WebDriver wd;
 
     public static void main(String[] args) {
-        String broeser = org.openqa.selenium.remote.BrowserType.CHROME;
+        String broeser = org.openqa.selenium.remote.BrowserType.FIREFOX;
 
         if (broeser == org.openqa.selenium.remote.BrowserType.FIREFOX) {
             wd = new FirefoxDriver();
