@@ -2,6 +2,9 @@ package ua.home.NovaPoshta;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 public class DeliveryPageNP {
     private WebDriver wd;
@@ -15,8 +18,12 @@ public class DeliveryPageNP {
     private By headerDeliveryPage = By.xpath(".//*[@id='wrapper']/h1");
     private By mainPagelink = By.xpath(".//a[@title='Головна']");
     // елементы формы
-    private By deliverysenderCityField = By.xpath(".//*[@id='DeliveryForm_senderCity']");
-    private By deliveryrecipientCityField = By.xpath(".//*[@id='DeliveryForm_recipientCity']");
+    private By deliverySenderCityField = By.xpath(".//*[@id='DeliveryForm_senderCity']");
+    private By senderCityFiledINS = By.xpath(".//*[@id='DeliveryForm_senderCity']/parent::div/ins");
+    private By senderCityName = By.xpath("//div[@class='jspPane']//span[.='Авіаторське']");
+
+
+    private By deliveryRecipientCityField = By.xpath(".//*[@id='DeliveryForm_recipientCity']");
     private By deliveryTechnologyField = By.xpath(".//input[@id='DeliveryForm_deliveryTechnology_id']");
     private By deliveryTechnologyList = By.xpath(".//div[@class='select deliveryTechnology del_type']/div[@class='dropdown']/ul/li");
     private By deliveryWeightField = By.xpath(".//*[@id='DeliveryForm_weight']");
@@ -39,6 +46,16 @@ public class DeliveryPageNP {
     public String getHeaderDeliveryPage() {
         return wd.findElement(headerDeliveryPage).getText();
     }
+
+    // Описание формы Cost
+
+    public DeliveryPageNP clickDeliverySenderCityField() {
+        wd.findElement(senderCityFiledINS).click();
+        wd.findElement(senderCityName).click();
+        return this;
+    }
+
+
 
     public MainPageNP returnMainPage() {
         wd.findElement(mainPagelink).click();

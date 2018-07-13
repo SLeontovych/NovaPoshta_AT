@@ -19,20 +19,23 @@ public class MainClassNP {
             wd = new ChromeDriver();
         }
 
-        wd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        wd.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 //        wd.manage().window().maximize();
         wd.get("https://novaposhta.ua");
         MainPageNP mainPageNP = new MainPageNP(wd);
 
 
-        mainPageNP.clickEstimatedateLink();
 
-        EstimatedatePage estimatedatePage = new EstimatedatePage(wd);
+
+        mainPageNP.clickDeliveryLink();
+        DeliveryPageNP deliveryPageNP = new DeliveryPageNP(wd);
+        deliveryPageNP.clickDeliverySenderCityField();
+
 
 //        estimatedatePage.inputDepartureDate("01.01.2018");
 //        estimatedatePage.inputServiceType("Адреса-Адреса");
 //          estimatedatePage.inputSenderCity("Авдіївка");
-        estimatedatePage.inputRecipientCity("Аджамка");
+//        estimatedatePage.inputRecipientCity("Аджамка");
 //        estimatedatePage.clickDateButton();
 //        List validLabel = estimatedatePage.getValidLabel();
 //        List notValidLabel = estimatedatePage.getNotValidLabel();
