@@ -19,26 +19,25 @@ public class MainClassNP {
             wd = new ChromeDriver();
         }
 
-        wd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        wd.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 //        wd.manage().window().maximize();
         wd.get("https://novaposhta.ua");
         MainPageNP mainPageNP = new MainPageNP(wd);
 
 
-        mainPageNP.clickEstimatedateLink();
+        mainPageNP.clickDeliveryLink();
+        DeliveryPageNP deliveryPageNP = new DeliveryPageNP(wd);
+        deliveryPageNP.inputFormAll(
+                "Авангард",
+                "Авдіївка",
+                "1",
+                "2", "3", "4",
+                "333");
+        boolean exsitInvalidLable = deliveryPageNP.getInvalidField();
+        System.out.println("Существуют не заполненые поля: " +  exsitInvalidLable);
 
-        EstimatedatePage estimatedatePage = new EstimatedatePage(wd);
+        deliveryPageNP.deliveryButtonClick();
+        deliveryPageNP.clearButton();
 
-//        estimatedatePage.inputDepartureDate("01.01.2018");
-//        estimatedatePage.inputServiceType("Адреса-Адреса");
-//          estimatedatePage.inputSenderCity("Авдіївка");
-        estimatedatePage.inputRecipientCity("Аджамка");
-//        estimatedatePage.clickDateButton();
-//        List validLabel = estimatedatePage.getValidLabel();
-//        List notValidLabel = estimatedatePage.getNotValidLabel();
-//        estimatedatePage.clearAllFielForm();
-
-//        System.out.println("Valid Label: " + validLabel.size());
-//        System.out.println("Not Valid Label: " + notValidLabel.size());
     }
 }
