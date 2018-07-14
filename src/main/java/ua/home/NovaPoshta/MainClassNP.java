@@ -25,23 +25,19 @@ public class MainClassNP {
         MainPageNP mainPageNP = new MainPageNP(wd);
 
 
-
-
         mainPageNP.clickDeliveryLink();
         DeliveryPageNP deliveryPageNP = new DeliveryPageNP(wd);
-        deliveryPageNP.clickDeliverySenderCityField();
+        deliveryPageNP.inputFormAll(
+                "Авангард",
+                "Авдіївка",
+                "1",
+                "2", "3", "4",
+                "333");
+        boolean exsitInvalidLable = deliveryPageNP.getInvalidField();
+        System.out.println("Существуют не заполненые поля: " +  exsitInvalidLable);
 
+        deliveryPageNP.deliveryButtonClick();
+        deliveryPageNP.clearButton();
 
-//        estimatedatePage.inputDepartureDate("01.01.2018");
-//        estimatedatePage.inputServiceType("Адреса-Адреса");
-//          estimatedatePage.inputSenderCity("Авдіївка");
-//        estimatedatePage.inputRecipientCity("Аджамка");
-//        estimatedatePage.clickDateButton();
-//        List validLabel = estimatedatePage.getValidLabel();
-//        List notValidLabel = estimatedatePage.getNotValidLabel();
-//        estimatedatePage.clearAllFielForm();
-
-//        System.out.println("Valid Label: " + validLabel.size());
-//        System.out.println("Not Valid Label: " + notValidLabel.size());
     }
 }

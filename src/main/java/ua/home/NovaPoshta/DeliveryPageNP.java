@@ -18,29 +18,6 @@ public class DeliveryPageNP {
     private By headerDeliveryPage = By.xpath(".//*[@id='wrapper']/h1");
     private By mainPagelink = By.xpath(".//a[@title='Головна']");
     // елементы формы
-    private By deliverySenderCityField = By.xpath(".//*[@id='DeliveryForm_senderCity']");
-    private By senderCityFiledINS = By.xpath(".//*[@id='DeliveryForm_senderCity']/parent::div/ins");
-    private By senderCityName = By.xpath("//div[@class='jspPane']//span[.='Авіаторське']");
-
-
-    private By deliveryRecipientCityField = By.xpath(".//*[@id='DeliveryForm_recipientCity']");
-    private By deliveryTechnologyField = By.xpath(".//input[@id='DeliveryForm_deliveryTechnology_id']");
-    private By deliveryTechnologyList = By.xpath(".//div[@class='select deliveryTechnology del_type']/div[@class='dropdown']/ul/li");
-    private By deliveryWeightField = By.xpath(".//*[@id='DeliveryForm_weight']");
-    private By deliveryHeightField = By.xpath(".//*[@id='DeliveryForm_height']");
-    private By deliveryWidthField = By.xpath(".//*[@id='DeliveryForm_width']");
-    private By deliveryDepthField = By.xpath(".//*[@id='DeliveryForm_depth']");
-    private By deliveryPlacesCountField = By.xpath(".//input[@id='DeliveryForm_places_count']");
-    private By deliveryPublicPriceField = By.xpath(".//input[@id='DeliveryForm_publicPrice']");
-    private By deliveryPackingServiceCheckBox = By.xpath(".//*[@id='DeliveryForm_packing_service']");
-    private By deliverybackDeliveryCheckBox = By.xpath(".//*[@id='DeliveryForm_backDelivery']");
-    private By deliveryCalcButton = By.xpath(".//input[@value='Рассчитать стоимость']");
-    private By deliveryClearAllFieldButton = By.xpath(".//input[@value='Очистить']");
-    private By deliveryInvalidElemrtsList = By.xpath(".//label[contains(@class,'invalid')]");
-    private By deliveryValidElementsList = By.xpath(".//label[contains(@class,' valid')]");
-
-
-
 
     // Описание методов MainPageNP
     public String getHeaderDeliveryPage() {
@@ -48,14 +25,65 @@ public class DeliveryPageNP {
     }
 
     // Описание формы Cost
-
-    public DeliveryPageNP clickDeliverySenderCityField() {
-        wd.findElement(senderCityFiledINS).click();
-        wd.findElement(senderCityName).click();
+    // **************************************************
+    public DeliveryPageNP inputFormAll(String senderCity, String recipientCity, String weight, String height, String width, String depth, String price) {
+        inputRoute(senderCity, recipientCity);
+        inputWeight(weight);
+        inputDemensions(height, width, depth);
+        inputPublicPrice(price);
         return this;
     }
 
+    private void inputPublicPrice(String price) {
+        By locatorPublicPrice = By.id("DeliveryForm_publicPrice");
+        inputField(price, locatorPublicPrice);
+    }
 
+    private void inputDemensions(String height, String width, String depth) {
+        By locatorHeight = By.id("DeliveryForm_height");
+        By locatorWidth  = By.id("DeliveryForm_width");
+        By locatorDepth  = By.id("DeliveryForm_depth");
+        inputField(height, locatorHeight);
+        inputField(width, locatorWidth);
+        inputField(depth, locatorDepth);
+    }
+
+    private void inputWeight(String weight) {
+        By locatorWeight = By.id("DeliveryForm_weight");
+        inputField(weight, locatorWeight);
+    }
+
+    private void inputField(String price, By locator) {
+        wd.findElement(locator).click();
+        wd.findElement(locator).clear();
+        wd.findElement(locator).sendKeys(price);
+    }
+
+    private void inputRoute(final String senderCity, final String recipientCity) {
+        wd.findElement(By.xpath(".//*[@for='DeliveryForm_senderCity']/parent::div/ins")).click();
+        wd.findElement(By.xpath("//div[@class='jspPane']//span[.='" + senderCity + "']")).click();
+        wd.findElement(By.xpath(".//label[@for='DeliveryForm_recipientCity']/parent::div/ins")).click();
+        wd.findElement(By.xpath("//div[@class='jspPane']//span[.='" + recipientCity + "']")).click();
+    }
+
+    public DeliveryPageNP deliveryButtonClick() {
+        wd.findElement(By.xpath(".//input[@value='Розрахувати вартість']")).click();
+        return this;
+    }
+
+    public DeliveryPageNP clearButton() {
+        wd.findElement(By.xpath(".//input[@value='Очистити']")).click();
+        return this;
+    }
+
+    public Boolean getInvalidField() {
+        List<WebElement> listLable = wd.findElements(By.xpath(".//*[contains(@class,'invalid')]"));
+        if (listLable.size() != 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 
     public MainPageNP returnMainPage() {
         wd.findElement(mainPagelink).click();
