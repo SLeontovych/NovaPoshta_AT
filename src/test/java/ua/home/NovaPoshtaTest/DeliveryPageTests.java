@@ -52,11 +52,15 @@ public class DeliveryPageTests {
         Assert.assertEquals(validField,false);
     }
 
-    public void clickDElivaryButton() {
+    @Test
+    public void clickDelivaryButton() {
         deliveryPageNP.inputFormAll("Авангард","Аджамка","1","2","3","4","11");
         deliveryPageNP.deliveryButtonClick();
-        Assert.assertEquals();
+        String deliveryStr = deliveryPageNP.getDeliveryString();
+        Assert.assertEquals("Розрахункова вартість доставки",deliveryStr);
     }
+
+
 
 
     @AfterMethod

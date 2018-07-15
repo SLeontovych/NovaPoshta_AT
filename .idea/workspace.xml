@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6297e3-ed78-47ad-97a1-71b9f34b9742" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/DeliveryPageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/DeliveryPageNP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/DeliveryPageNP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/DeliveryPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/DeliveryPageTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,11 +16,11 @@
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" openResultsInEditor="true" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DeliveryPageTests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DeliveryPageTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/DeliveryPageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+            <state relative-caret-position="184">
+              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1578#1579#0" expanded="true" />
@@ -34,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeliveryPageNP.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DeliveryPageNP.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/DeliveryPageNP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+            <state relative-caret-position="173">
+              <caret line="89" column="41" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -86,8 +84,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/EstimatedatePageTests.java" />
         <option value="$PROJECT_DIR$/TEMP_INFO/SeleniumBuilder_DeliveryPage_Filtr.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/DeliveryPageTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/DeliveryPageNP.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/DeliveryPageTests.java" />
       </list>
     </option>
   </component>
@@ -384,9 +382,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ua_home_NovaPoshtaTest_in_NovaPoshta_AT - 2018.07.05 at 22h 52m 43s.xml">
-      <configuration name="ua.home.NovaPoshtaTest in NovaPoshta_AT" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EstimatedatePageTests_and_1_more - 2018.07.05 at 22h 53m 59s.xml">
       <configuration name="EstimatedatePageTests and 1 more" configurationId="TestNG" />
     </history-entry>
@@ -412,6 +407,9 @@
       <configuration name="DeliveryPageTests" configurationId="TestNG" />
     </history-entry>
     <history-entry file="DeliveryPageTests - 2018.07.15 at 16h 34m 02s.xml">
+      <configuration name="DeliveryPageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeliveryPageTests - 2018.07.15 at 16h 46m 03s.xml">
       <configuration name="DeliveryPageTests" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -763,10 +761,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/DeliveryPageNP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="89" column="41" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/DeliveryPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+        <state relative-caret-position="184">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1578#1579#0" expanded="true" />
@@ -774,13 +779,6 @@
             <element signature="e#1710#1711#0" expanded="true" />
             <element signature="e#1735#1736#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/DeliveryPageNP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
         </state>
       </provider>
     </entry>
