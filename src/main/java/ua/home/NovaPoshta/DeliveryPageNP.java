@@ -85,6 +85,11 @@ public class DeliveryPageNP {
         }
     }
 
+    public String getDeliveryString() {
+        By locatorDeliveryString = By.xpath(".//div[@class='left']/h3");
+        return wd.findElement(locatorDeliveryString).getText();
+    }
+
     public MainPageNP returnMainPage() {
         wd.findElement(mainPagelink).click();
         return new MainPageNP(wd);
