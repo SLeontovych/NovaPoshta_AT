@@ -60,7 +60,7 @@ public class DeliveryPageTests {
         Assert.assertEquals("Розрахункова вартість доставки",deliveryStr);
     }
 
-    @Test (enabled = false)
+    @Test (enabled = true)
 
     public void clearAllFields() {
         deliveryPageNP.inputFormAll("Авангард","Аджамка","1","2","3","4","11");
@@ -72,35 +72,35 @@ public class DeliveryPageTests {
 
     // Негативніе тесты
 
-    @Test (enabled = false)
+    @Test (enabled = true)
     public void notInputFieldSenderCity() {
         deliveryPageNP.inputFormAll("Київ","Аджамка","1","2","3","4","11");
         boolean invalidField = deliveryPageNP.getInvalidField();
         Assert.assertEquals(true,invalidField);
     }
 
-    @Test (enabled = false)
+    @Test (enabled = true)
     public void inputNullFieldWeght() {
         deliveryPageNP.inputFormAll("Авангард","Аджамка","weight","2","3","4","11");
         boolean invalidField = deliveryPageNP.getInvalidField();
         Assert.assertEquals(true,invalidField);
     }
 
-    @Test (enabled = false)
+    @Test (enabled = true)
     public void inputNullFieldHeight() {
         deliveryPageNP.inputFormAll("Авангард","Аджамка","1","0","3","4","11");
         boolean invalidField = deliveryPageNP.getInvalidField();
         Assert.assertEquals(true,invalidField);
     }
 
-    @Test (enabled = false)
+    @Test (enabled = true)
     public void inputNullFieldWidth() {
         deliveryPageNP.inputFormAll("Авангард","Аджамка","1","2","0","4","11");
         boolean invalidField = deliveryPageNP.getInvalidField();
         Assert.assertEquals(true,invalidField);
     }
 
-    @Test (enabled = false)
+    @Test (enabled = true)
     public void inputNullFieldDepth() {
         deliveryPageNP.inputFormAll("Авангард","Аджамка","1","2","3","0","11");
         boolean invalidField = deliveryPageNP.getInvalidField();
