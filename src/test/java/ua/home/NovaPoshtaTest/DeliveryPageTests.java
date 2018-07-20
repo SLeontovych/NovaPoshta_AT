@@ -18,15 +18,8 @@ public class DeliveryPageTests {
 
     @BeforeClass
     public void setUp() {
-        String browser = BrowserType.FIREFOX;
         String chromeDriverPAth = "W:\\TESTER\\WebDriverSel\\Demo_sel\\NovaPoshta_AT\\drivers\\chromedriver.exe";
-
-        if (browser.equals(BrowserType.FIREFOX)) {
-            wd = new FirefoxDriver();
-        } else if (browser.equals(BrowserType.CHROME)) {
-            System.setProperty("webdriver.chrome.driver", chromeDriverPAth);
-            wd = new ChromeDriver();
-        }
+        wd = new FirefoxDriver();
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wd.manage().window().maximize();
         wd.get("https://novaposhta.ua");
@@ -36,7 +29,7 @@ public class DeliveryPageTests {
     public void createObjectnDeliveryPage() {
         mainPageNP = new MainPageNP(wd);
         mainPageNP.clickDeliveryLink();
-        deliveryPageNP = new DeliveryPageNP(wd);
+//        deliveryPageNP = new DeliveryPageNP(wd);
     }
 
     @Test (enabled = true)
@@ -47,8 +40,9 @@ public class DeliveryPageTests {
 
     @Test (enabled = true)
     public void inputFormAllFieldValid() {
-        deliveryPageNP.inputFormAll("Авангард","Аджамка","1","2","3","4","11");
-        boolean validField = deliveryPageNP.getInvalidField();
+        DeliveryPageNP deliveryPageNP = this.deliveryPageNP.inputFormAll("Авангард", "Аджамка", "1", "2", "3", "4", "11");
+        boolean validField;
+        validField = this.deliveryPageNP.getInvalidField();
         Assert.assertEquals(false,validField);
     }
 
@@ -67,7 +61,7 @@ public class DeliveryPageTests {
         deliveryPageNP.clearButton();
         deliveryPageNP.deliveryButtonClick();
         boolean invalidFieldS = deliveryPageNP.getInvalidField();
-        Assert.assertEquals(true,invalidFieldS);
+        Assert.assertTrue(true, String.valueOf(invalidFieldS));
     }
 
     // Негативніе тесты
