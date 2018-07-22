@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6297e3-ed78-47ad-97a1-71b9f34b9742" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Test Results - DeliveryPageTests_and_2_more.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/DeliveryPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/DeliveryPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/home/NovaPoshta/DeliveryPageNP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/home/NovaPoshta/DeliveryPageNP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/home/NovaPoshta/EstimatedatePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/home/NovaPoshta/EstimatedatePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/home/NovaPoshta/MainClassNP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/home/NovaPoshta/MainClassNP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/home/NovaPoshta/MainPageNP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/home/NovaPoshta/MainPageNP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/home/NovaPoshta/OnlineOrderPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/home/NovaPoshta/OnlineOrderPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/home/NovaPoshta/TimeTablePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/home/NovaPoshta/TimeTablePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/home/NovaPoshtaTest/DeliveryPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ua/home/NovaPoshtaTest/DeliveryPageTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/home/NovaPoshtaTest/EstimatedatePageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ua/home/NovaPoshtaTest/EstimatedatePageTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/home/NovaPoshtaTest/MainPageNPTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ua/home/NovaPoshtaTest/MainPageNPTests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,33 +26,12 @@
   </component>
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" openResultsInEditor="true" userTempatePath="" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DeliveryPageTests.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/DeliveryPageTests.java">
+    <leaf>
+      <file leaf-file-name="MainClassNP.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeliveryPageNP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/DeliveryPageNP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="92" column="40" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EstimatedatePageTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/EstimatedatePageTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1649">
-              <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -76,29 +65,31 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/OfficePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainPageNP.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/EstimatedatePage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/MainPageNPTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/EstimatedatePageTests.java" />
         <option value="$PROJECT_DIR$/TEMP_INFO/SeleniumBuilder_DeliveryPage_Filtr.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/DeliveryPageNP.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/DeliveryPageTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="2666" />
-    <option name="height" value="1044" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,8 +153,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,7 +293,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="EstimatedatePageTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MainPageNPTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NovaPoshta_AT" />
       <extension name="coverage">
         <pattern>
@@ -316,7 +305,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="ua.home.NovaPoshtaTest" />
-      <option name="MAIN_CLASS_NAME" value="ua.home.NovaPoshtaTest.EstimatedatePageTests" />
+      <option name="MAIN_CLASS_NAME" value="ua.home.NovaPoshtaTest.MainPageNPTests" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -356,19 +345,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.EstimatedatePageTests" />
       <item itemvalue="TestNG.DeliveryPageTests" />
       <item itemvalue="JUnit.All in NovaPoshta_AT" />
       <item itemvalue="JUnit.ua.home.NovaPoshtaTest in NovaPoshta_AT" />
       <item itemvalue="TestNG.DeliveryPageTests and 2 more" />
+      <item itemvalue="TestNG.MainPageNPTests" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.DeliveryPageTests and 2 more" />
         <item itemvalue="JUnit.ua.home.NovaPoshtaTest in NovaPoshta_AT" />
+        <item itemvalue="TestNG.MainPageNPTests" />
         <item itemvalue="JUnit.All in NovaPoshta_AT" />
         <item itemvalue="TestNG.DeliveryPageTests" />
-        <item itemvalue="TestNG.EstimatedatePageTests" />
       </list>
     </recent_temporary>
   </component>
@@ -386,21 +375,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DeliveryPageTests - 2018.07.15 at 21h 58m 33s.xml">
-      <configuration name="DeliveryPageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DeliveryPageTests - 2018.07.15 at 22h 00m 16s.xml">
-      <configuration name="DeliveryPageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DeliveryPageTests - 2018.07.15 at 22h 04m 29s.xml">
-      <configuration name="DeliveryPageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DeliveryPageTests - 2018.07.15 at 22h 08m 23s.xml">
-      <configuration name="DeliveryPageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DeliveryPageTests - 2018.07.15 at 22h 11m 22s.xml">
-      <configuration name="DeliveryPageTests" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="DeliveryPageTests - 2018.07.15 at 22h 24m 03s.xml">
       <configuration name="DeliveryPageTests" configurationId="TestNG" />
     </history-entry>
@@ -416,43 +390,77 @@
     <history-entry file="DeliveryPageTests_and_2_more - 2018.07.16 at 06h 17m 36s.xml">
       <configuration name="DeliveryPageTests and 2 more" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="MainPageNPTests - 2018.07.20 at 23h 40m 25s.xml">
+      <configuration name="MainPageNPTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ua_home_NovaPoshtaTest_in_NovaPoshta_AT - 2018.07.20 at 23h 42m 18s.xml">
+      <configuration name="ua.home.NovaPoshtaTest in NovaPoshta_AT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeliveryPageTests_and_2_more - 2018.07.20 at 23h 50m 11s.xml">
+      <configuration name="DeliveryPageTests and 2 more" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeliveryPageTests_and_2_more - 2018.07.21 at 00h 13m 21s.xml">
+      <configuration name="DeliveryPageTests and 2 more" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeliveryPageTests_and_2_more - 2018.07.22 at 09h 59m 43s.xml">
+      <configuration name="DeliveryPageTests and 2 more" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.29537955" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1980198" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22995462" />
+      <window_info anchor="bottom" id="Messages" weight="0.22937293" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19515885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1980198" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22995462" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="6" />
       <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.29537955" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info id="Favorites" order="5" side_tool="true" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/TimeTablePage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/MainPageNPTests.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -674,13 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/MainPageNPTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -693,13 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="28" column="97" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -731,6 +725,27 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/ru/yandex/qatools/allure/allure-testng-adaptor/1.5.3/allure-testng-adaptor-1.5.3.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
