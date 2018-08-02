@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd6297e3-ed78-47ad-97a1-71b9f34b9742" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Test Results - DeliveryPageTests_and_2_more.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/DeliveryPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/DeliveryPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,6 +15,7 @@
   </component>
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" openResultsInEditor="true" userTempatePath="" />
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -34,15 +34,28 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MainClassNP.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+>>>>>>> hotfix/TestsDEliveryPage
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeliveryPageNP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/DeliveryPageNP.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="119">
               <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+=======
+            <state relative-caret-position="714">
+              <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+>>>>>>> hotfix/TestsDEliveryPage
             </state>
           </provider>
         </entry>
@@ -76,16 +89,17 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/OfficePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainPageNP.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/EstimatedatePage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/MainPageNPTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/EstimatedatePageTests.java" />
         <option value="$PROJECT_DIR$/TEMP_INFO/SeleniumBuilder_DeliveryPage_Filtr.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/DeliveryPageNP.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/DeliveryPageTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java" />
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1358" />
     <option name="y" value="-8" />
@@ -93,6 +107,13 @@
     <option name="height" value="744" />
     <option name="width" value="2666" />
     <option name="height" value="1044" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+>>>>>>> hotfix/TestsDEliveryPage
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -101,7 +122,10 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+<<<<<<< HEAD
       <pane id="AndroidView" />
+=======
+>>>>>>> hotfix/TestsDEliveryPage
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -113,59 +137,16 @@
             <path>
               <item name="NovaPoshta_AT" type="b2602c69:ProjectViewProjectNode" />
               <item name="NovaPoshta_AT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NovaPoshta_AT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NovaPoshta_AT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NovaPoshta_AT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NovaPoshta_AT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NovaPoshta_AT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NovaPoshta_AT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NovaPoshta" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NovaPoshta_AT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NovaPoshta_AT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NovaPoshta_AT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NovaPoshta_AT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NovaPoshta_AT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NovaPoshta_AT" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="NovaPoshtaTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NovaPoshta_AT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NovaPoshta_AT" type="462c0819:PsiDirectoryNode" />
-              <item name="TEMP_INFO" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="AndroidView" />
+>>>>>>> hotfix/TestsDEliveryPage
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,6 +359,7 @@
     <list>
       <item itemvalue="TestNG.DeliveryPageTests" />
       <item itemvalue="TestNG.DeliveryPageTests and 2 more" />
+<<<<<<< HEAD
       <item itemvalue="TestNG.EstimatedatePageTests" />
       <item itemvalue="TestNG.MainPageNPTests" />
       <item itemvalue="TestNG.DeliveryPageTests.clearAllFields" />
@@ -389,6 +371,17 @@
         <item itemvalue="TestNG.DeliveryPageTests" />
         <item itemvalue="TestNG.MainPageNPTests" />
         <item itemvalue="TestNG.DeliveryPageTests and 2 more" />
+=======
+      <item itemvalue="TestNG.MainPageNPTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.DeliveryPageTests and 2 more" />
+        <item itemvalue="JUnit.ua.home.NovaPoshtaTest in NovaPoshta_AT" />
+        <item itemvalue="TestNG.MainPageNPTests" />
+        <item itemvalue="JUnit.All in NovaPoshta_AT" />
+        <item itemvalue="TestNG.DeliveryPageTests" />
+>>>>>>> hotfix/TestsDEliveryPage
       </list>
     </recent_temporary>
   </component>
@@ -406,21 +399,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DeliveryPageTests - 2018.07.15 at 21h 58m 33s.xml">
-      <configuration name="DeliveryPageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DeliveryPageTests - 2018.07.15 at 22h 00m 16s.xml">
-      <configuration name="DeliveryPageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DeliveryPageTests - 2018.07.15 at 22h 04m 29s.xml">
-      <configuration name="DeliveryPageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DeliveryPageTests - 2018.07.15 at 22h 08m 23s.xml">
-      <configuration name="DeliveryPageTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DeliveryPageTests - 2018.07.15 at 22h 11m 22s.xml">
-      <configuration name="DeliveryPageTests" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="DeliveryPageTests - 2018.07.15 at 22h 24m 03s.xml">
       <configuration name="DeliveryPageTests" configurationId="TestNG" />
     </history-entry>
@@ -436,13 +414,33 @@
     <history-entry file="DeliveryPageTests_and_2_more - 2018.07.16 at 06h 17m 36s.xml">
       <configuration name="DeliveryPageTests and 2 more" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="MainPageNPTests - 2018.07.20 at 23h 40m 25s.xml">
+      <configuration name="MainPageNPTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ua_home_NovaPoshtaTest_in_NovaPoshta_AT - 2018.07.20 at 23h 42m 18s.xml">
+      <configuration name="ua.home.NovaPoshtaTest in NovaPoshta_AT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeliveryPageTests_and_2_more - 2018.07.20 at 23h 50m 11s.xml">
+      <configuration name="DeliveryPageTests and 2 more" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeliveryPageTests_and_2_more - 2018.07.21 at 00h 13m 21s.xml">
+      <configuration name="DeliveryPageTests and 2 more" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DeliveryPageTests_and_2_more - 2018.07.22 at 09h 59m 43s.xml">
+      <configuration name="DeliveryPageTests and 2 more" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="1358" y="-8" width="1296" height="1000" extended-state="6" />
+=======
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+>>>>>>> hotfix/TestsDEliveryPage
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.23085847" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
@@ -462,6 +460,28 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
+=======
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1980198" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2375189" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.29537955" />
+>>>>>>> hotfix/TestsDEliveryPage
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -475,6 +495,25 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/DeliveryPageNP.java" />
+>>>>>>> hotfix/TestsDEliveryPage
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainPageNP.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Ignore.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -694,10 +733,17 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainPageNP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+>>>>>>> hotfix/TestsDEliveryPage
         </state>
       </provider>
     </entry>
@@ -716,6 +762,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -736,6 +783,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> hotfix/TestsDEliveryPage
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/EstimatedatePageTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -794,11 +843,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/home/NovaPoshtaTest/DeliveryPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="596">
           <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="34">
+          <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/ru/yandex/qatools/allure/allure-testng-adaptor/1.5.3/allure-testng-adaptor-1.5.3.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/home/NovaPoshta/MainClassNP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-surefire-plugin/2.14/maven-surefire-plugin-2.14.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+>>>>>>> hotfix/TestsDEliveryPage
         </state>
       </provider>
     </entry>
